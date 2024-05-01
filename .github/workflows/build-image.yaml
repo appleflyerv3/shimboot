@@ -9,7 +9,7 @@ jobs:
 
     strategy: 
       matrix:
-        board: [orco]
+        board: [orco, octopus]
 
     runs-on: ubuntu-latest
     steps:
